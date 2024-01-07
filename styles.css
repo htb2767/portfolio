@@ -36,7 +36,11 @@ nav .container ul li.active {
   font-size: 50px;
   z-index: 1;
 }
-
+.hero__title .resume{
+  font-size: 40px;
+ 
+  
+}
 #particles-js {
     
     height: 100vh;
@@ -262,4 +266,30 @@ nav .container ul li.active {
     bottom: 75px;
     left: 130px;
   }
+  
+  .fas{
+    color:black;
+  }
+  .download-button {
+    display: inline-block;
+    position:relative;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(27, 91, 194);
+    color: rgb(27, 91, 194);
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    overflow: hidden;
+  }
 
+  .download-button:hover {
+    background-color: rgb(27, 91, 194);
+    color: #fff;
+  }
+  
